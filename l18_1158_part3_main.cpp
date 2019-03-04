@@ -18,8 +18,8 @@ void main(){
 	StArr[2].addQuizScore(8);
 	StArr[2].addQuizScore(7);
 	printArr(StArr,3);
-	sortArray(StArr,3);
-	printArr(StArr,3);
+	cout<<endl<<" constructors were invoked when an array of student type was created.It was called for each member of the array "<<endl;
+	cout<<"Destructor was invoked when the end of block of main function was reached"<<endl;
 	
 	system("pause");
 }
